@@ -18,19 +18,16 @@ namespace BishopPathFinder
         static void Main(string[] args)
         {
             ReadInput();
-
-            gameBoard = InitGameBoard();
-            used = new bool[gameBoardRows, gameBoardCols];
+            InitializeComponents();
 
             int currRow = gameBoardRows - 1;
             int currCol = 0;
 
             for (int i = 0; i < movesCount; i++)
             {
-                var moveInfoToken = Console.ReadLine().Split();
-
-                string direction = moveInfoToken[0];
-                int steps = int.Parse(moveInfoToken[1]);
+                var token = Console.ReadLine().Split();
+                string direction = token[0];
+                int steps = int.Parse(token[1]);
 
                 MoveBishop(ref currRow, ref currCol, steps, direction);
             }
@@ -40,37 +37,26 @@ namespace BishopPathFinder
 
         private static void ReadInput()
         {
-            var token = Console.ReadLine().Split().Select(int.Parse);
+            var boardDimentions = Console.ReadLine().Split();
+            var movesCountInputString = Console.ReadLine();
 
-            gameBoardRows = token.First();
-            gameBoardCols = token.Last();
-
-            movesCount = int.Parse(Console.ReadLine());
+            gameBoardRows = int.Parse(boardDimentions[0]);
+            gameBoardCols = int.Parse(boardDimentions[1]);
+            movesCount = int.Parse(movesCountInputString);
         }
 
-        private static int[,] InitGameBoard()
+        private static void InitializeComponents()
         {
-            int[,] result = new int[gameBoardRows, gameBoardCols];
-            int[,] table =
+            gameBoard = new int[gameBoardRows, gameBoardCols];
+            used = new bool[gameBoardRows, gameBoardCols];
+            
+            for (int row = 0; row < gameBoardRows; row++)
             {
-                {15, 18, 21, 24, 27, 30, 33, 36, 39},
-                {12, 15, 18, 21, 24, 27, 30, 33, 36},
-                {9, 12, 15, 18, 21, 24, 27, 30, 33},
-                {6, 9, 12, 15, 18, 21, 24, 27, 30},
-                {3, 6, 9, 12, 15, 18, 21, 24, 27},
-                {0, 3, 6, 9, 12, 15, 18, 21, 24}
-            };
-
-            int startRowInTable = table.GetLength(0) - gameBoardRows;
-            for (int rowIndex = 0; rowIndex < gameBoardRows; rowIndex++)
-            {
-                for (int colIndex = 0; colIndex < gameBoardCols; colIndex++)
+                for (int col = 0; col < gameBoardCols; col++)
                 {
-                    result[rowIndex, colIndex] = table[startRowInTable + rowIndex, colIndex];
+                    gameBoard[gameBoardRows - 1 - row, col] = (row + col) * 3;
                 }
             }
-            
-            return result;
         }
 
         private static void MoveBishop(ref int currRow, ref int currCol, int steps, string direction)
