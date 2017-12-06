@@ -9,7 +9,7 @@ namespace BishopPathFinder
     class Program
     {
         private static int[,] gameBoard;
-        private static bool[,] used;
+        private static bool[,] visited;
         private static long score;
         private static int gameBoardRows;
         private static int gameBoardCols;
@@ -48,7 +48,7 @@ namespace BishopPathFinder
         private static void InitializeComponents()
         {
             gameBoard = new int[gameBoardRows, gameBoardCols];
-            used = new bool[gameBoardRows, gameBoardCols];
+            visited = new bool[gameBoardRows, gameBoardCols];
             
             for (int row = 0; row < gameBoardRows; row++)
             {
@@ -62,10 +62,10 @@ namespace BishopPathFinder
         private static void MoveBishop(ref int currRow, ref int currCol, int steps, string direction)
         {
             steps--;
-            if (!used[currRow, currCol])
+            if (!visited[currRow, currCol])
             {
                 score += gameBoard[currRow, currCol];
-                used[currRow, currCol] = true;
+                visited[currRow, currCol] = true;
             }
             
             switch (direction)
