@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrix", "Larg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actions", "Actions\Actions.csproj", "{F8E9D65B-6A9B-44E8-9C7E-D2D03080A192}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerRanking", "PlayerRanking\PlayerRanking.csproj", "{C288054E-6B6F-4E08-B724-9F6A8EDF653D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F8E9D65B-6A9B-44E8-9C7E-D2D03080A192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8E9D65B-6A9B-44E8-9C7E-D2D03080A192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8E9D65B-6A9B-44E8-9C7E-D2D03080A192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

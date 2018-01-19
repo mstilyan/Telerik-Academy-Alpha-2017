@@ -8,13 +8,13 @@ namespace JediMeditation
 {
     class Program
     {
-        private static Queue<string> Ms = new Queue<string>();
-        private static Queue<string> Ks = new Queue<string>();
-        private static Queue<string> Ps = new Queue<string>();
+        private static readonly Queue<string> Ms = new Queue<string>();
+        private static readonly Queue<string> Ks = new Queue<string>();
+        private static readonly Queue<string> Ps = new Queue<string>();
 
         static void Main(string[] args)
         {
-            var count = int.Parse(Console.ReadLine());
+            var garbage = Console.ReadLine();
             var units = Console.ReadLine().Split();
 
             foreach (var unit in units)

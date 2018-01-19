@@ -44,7 +44,7 @@ namespace Actions
             {
                 var node = graph.Keys.First(key => graph[key].Count == 0);
                 graph.Remove(node);
-
+                
                 foreach (var parent in reversedGraph[node])
                 {
                     graph[parent].Remove(node);
