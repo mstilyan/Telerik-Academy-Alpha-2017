@@ -11,13 +11,17 @@ namespace BubbleSort
     {
         public static void Sort<T>(IList<T> collection) where T : IComparable<T>
         {
-            for (int i = 0; i < collection.Count; i++)
+            bool swap = true;
+
+            while (swap)
             {
-                for (int j = i + 1; j < collection.Count; j++)
+                swap = false;
+                for (int j = 0; j < collection.Count - 1; j++)
                 {
-                    if (collection[j].CompareTo(collection[i]) < 0)
+                    if (collection[j].CompareTo(collection[j + 1]) > 0)
                     {
-                        SwapElements.Swap(collection, i, j);
+                        SwapElements.Swap(collection, j, j + 1);
+                        swap = true;
                     }
                 }
             }
