@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traveller", "Traveller\Traveller.csproj", "{37BA7D68-D803-4820-9586-8EFC016C9144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{3F17999A-0998-45FB-BE84-A3A129D16183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerTests", "TravellerTests\TravellerTests.csproj", "{FFFD05DB-EA1B-4485-B384-E82DC6F00295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37BA7D68-D803-4820-9586-8EFC016C9144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BA7D68-D803-4820-9586-8EFC016C9144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BA7D68-D803-4820-9586-8EFC016C9144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BA7D68-D803-4820-9586-8EFC016C9144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F17999A-0998-45FB-BE84-A3A129D16183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F17999A-0998-45FB-BE84-A3A129D16183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F17999A-0998-45FB-BE84-A3A129D16183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F17999A-0998-45FB-BE84-A3A129D16183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFD05DB-EA1B-4485-B384-E82DC6F00295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFD05DB-EA1B-4485-B384-E82DC6F00295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFD05DB-EA1B-4485-B384-E82DC6F00295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFD05DB-EA1B-4485-B384-E82DC6F00295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

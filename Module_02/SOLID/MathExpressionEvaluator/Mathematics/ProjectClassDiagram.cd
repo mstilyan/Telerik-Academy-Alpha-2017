@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mathematics.Engine.ExpressionParser" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>Engine\ExpressionParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mathematics.Engine.InfixToPostfixConverter" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\InfixToPostfixConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mathematics.Engine.InvalidMathematicalExpressionException" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\InvalidMathematicalExpressionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Engine.PostfixCalculator" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Engine\PostfixCalculator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mathematics.Expression" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAIAAAgAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Startup" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.General.Models.ErrorMessages" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAAAAAAAAAAAAAAAACAAEAAAAMACAAIA=</HashCode>
+      <FileName>General\Models\ErrorMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.General.Models.Factory" BaseTypeListCollapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQIAAIAIABAAQAAAAAAAAAAAACAAAAAAEABAAAA=</HashCode>
+      <FileName>General\Models\Factory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mathematics.General.Models.Table" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\Models\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.Addition">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\Addition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.BinaryOperation">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\BinaryOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.BitwiseAND">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\BitwiseAND.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.BitwiseExclusiveOR">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\BitwiseExclusiveOR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.BitwiseInclusiveOR">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\BitwiseInclusiveOR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.BitwiseLeftShift">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\BitwiseLeftShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.BitwiseRightShift">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\BitwiseRightShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.Division">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\Division.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.Modulo">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\Modulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.Multiplication">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\Multiplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mathematics.Operations.Models.Operation">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAACAAAAAAIAAQAAAACAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\Operation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mathematics.Operations.Models.Substraction">
+    <Position X="20.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Models\Substraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Mathematics.Operands.Models.IntType" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Operands\Models\IntType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="Mathematics.Engine.Contracts.IInfixToPostfixConverter">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Contracts\IInfixToPostfixConverter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mathematics.Engine.Contracts.IExpressionParser">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Contracts\IParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mathematics.Engine.Contracts.IPostfixCalculator">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Contracts\IPostfixCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mathematics.General.Contracts.IFactory">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQIAAIAIABAAQAAAAAAAAAAAACAAAAAAEABAAAA=</HashCode>
+      <FileName>General\Contracts\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mathematics.Operands.Contracts.IOperand">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Operands\Contracts\IOperand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mathematics.Operations.Contracts.IAssociativityOperation">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Operations\Contracts\IAssociativityOperation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mathematics.Operations.Contracts.IOperation">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operations\Contracts\IOperation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Mathematics.Operations.Enums.OperationAssociativity" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Operations\Enums\OperationAssociativity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
