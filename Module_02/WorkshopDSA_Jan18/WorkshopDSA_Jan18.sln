@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actions", "Actions\Actions.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerRanking", "PlayerRanking\PlayerRanking.csproj", "{C288054E-6B6F-4E08-B724-9F6A8EDF653D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slogan", "Slogan\Slogan.csproj", "{D4B34B8A-21DC-4D7A-BC3E-AE101D8E1DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitsOfWork", "UnitsOfWork\UnitsOfWork.csproj", "{7FE32DBC-1978-46AD-BE6B-AE8397822AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,8 +49,19 @@ Global
 		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C288054E-6B6F-4E08-B724-9F6A8EDF653D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B34B8A-21DC-4D7A-BC3E-AE101D8E1DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B34B8A-21DC-4D7A-BC3E-AE101D8E1DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B34B8A-21DC-4D7A-BC3E-AE101D8E1DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B34B8A-21DC-4D7A-BC3E-AE101D8E1DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE32DBC-1978-46AD-BE6B-AE8397822AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE32DBC-1978-46AD-BE6B-AE8397822AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE32DBC-1978-46AD-BE6B-AE8397822AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE32DBC-1978-46AD-BE6B-AE8397822AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A614CEA-3236-469C-8415-A9ABCC3B57F2}
 	EndGlobalSection
 EndGlobal
